@@ -2,8 +2,9 @@
   "name": "menu-api",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.ts",
+  "main": "index.js",
   "scripts": {
+    "tsc": "tsc",
     "start": "ts-node-dev --respawn --pretty --transpile-only src/index.ts"
   },
   "keywords": [],
@@ -16,8 +17,7 @@
     "express-jwt": "^7.7.5",
     "express-jwt-authz": "^2.4.1",
     "helmet": "^6.0.0",
-    "jwks-rsa": "^2.1.4",
-    "nodemon": "^2.0.20"
+    "jwks-rsa": "^2.1.4"
   },
   "devDependencies": {
     "@types/cors": "^2.8.12",
